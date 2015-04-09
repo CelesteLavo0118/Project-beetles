@@ -1,0 +1,18 @@
+html{
+  box-sizing:boder-box;
+  margin:0 auto;
+  font-family: 'Dosis', sans-serif;
+}
+
+*, *::before, *::after{
+  box-sizing:inherit;
+}
+
+body{
+  margin:0;
+}
+
+header{
+  margin:auto;
+  padding:1rem;
+}
