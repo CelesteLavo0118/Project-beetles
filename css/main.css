@@ -34,14 +34,15 @@ h1{
 
 
 nav a{
-  width: 20.5%;
+  width: 21%;
   display:inline-block;
   float: left;
   padding: 0.5em 0.75em;
-  background-color:aliceblue;
+  background-color:#512200;
+  opacity:0.5;
   text-decoration: none;
   color:black;
-  margin-bottom: 0.7rem;
+  margin:0;
 }
 
 nav a:hover{
@@ -95,5 +96,11 @@ h2{
 }
 
 footer{
-  background-color:;
+  background-color:#512200;
+  opacity:0.5;
+  padding:1rem;
+}
+
+#beetle-vector{
+  width:10%;
 }
