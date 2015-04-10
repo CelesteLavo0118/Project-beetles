@@ -1,5 +1,5 @@
 html{
-  box-sizing:boder-box;
+  box-sizing:border-box;
   margin:0 auto;
   font-family: 'Dosis', sans-serif;
 }
@@ -10,19 +10,22 @@ html{
 
 body{
   margin:0;
+  width: 100%;
 }
 
 header{
   display: block;
   font-weight: 400;
-  color:blue;
   margin:0 auto;
-  /*background-image: url("subtle_white_mini_waves.png");*/
 }
 
 
 img{
   width:100%;
+
+}
+.squared{
+  max-height: 5rem;
 }
 
 h1{
@@ -34,8 +37,7 @@ h1{
 
 
 nav a{
-  width: 21%;
-  display:inline-block;
+  display:block;
   float: left;
   padding: 0.5em 0.75em;
   background-color:#512200;
@@ -43,20 +45,22 @@ nav a{
   text-decoration: none;
   color:black;
   margin:0;
+  color:white;
 }
 
 nav a:hover{
-  background-color:green;
+  background-color:#512200;
+  opacity:0.75;
 }
 
-nav{
+nav{ 
+    width: 100%;
     text-align:center;
     margin:0;
     padding:0;
 }
 
 nav ol{
-  list-style-type:none;
   padding: 0;
   margin: 0;
 }
@@ -69,38 +73,55 @@ nav li{
 
 #banner{
   position:relative;
+  margin:0;
 }
 
 .banner-img{
   width:100%;
+  margin:0;
 }
 
 h2{
   color:white;
   position:absolute;
   bottom:1em;
-  width:50%;
+  padding-left:3em;
   text-align:center;
   margin:auto;
   font-size:25px;
 }
 
+p{
+  padding:0;
+  margin:0;
+}
+
 .inset-left{
-  float:left;
   width:50%;
+  float:left;
+  margin:0;
+  padding:0;
+  overflow:hidden;
 }
 
 .inset-right{
-  float:right;
   width:50%;
+  float:right;
+  margin:0;
+  padding:0;
+  overflow:hidden;
 }
 
 footer{
   background-color:#512200;
   opacity:0.5;
-  padding:1rem;
+  padding:0.5rem;
 }
 
 #beetle-vector{
   width:10%;
+}
+
+div{
+  margin:0;
 }
